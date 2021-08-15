@@ -1,1 +1,198 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --font-h1: "Veneer-Two";
+  --font-p1: "Cutive Mono", monospace;
+  --weight-h2: 400;
+  --weight-p2: 300;
+  --size-h1: 1.65rem;
+  --size-p1: 1.3rem;
+
+  --font-h2: "Love Ya Like A Sister", cursive;
+  --font-p2: "Nixie One", cursive;
+  --weight-h2: 700;
+  --weight-p2: 400;
+  --size-h2: 1.65rem;
+  --size-p2: 1.23rem;
+
+  --font-h3: "Special Elite", cursive;
+  --font-p3: "Cutive Mono", monospace;
+  --weight-h3: 700;
+  --weight-p3: 400;
+  --size-h3: 1.38rem;
+  --size-p3: 1.3rem;
+
+  --font-h4: "Walter Turncoat", cursive;
+  --font-p4: "IBM Plex Mono", monospace;
+  --weight-h4: 700;
+  --weight-p4: 300;
+  --size-h4: 1.6rem;
+  --size-p4: 1.2rem;
+}
+
+body {
+  color: hsl(195, 4%, 35%);
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 100px 0;
+}
+
+.menu-item {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.menu-list {
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--font-h1);
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+h4 {
+  font-family: var(--font-h1);
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.price {
+  font-family: var(--font-p1);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.menu-top-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.line-sep {
+  flex: 1;
+  margin: 0 12px;
+  border: dashed 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-desc {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-top: -12px;
+  font-family: var(--font-p1);
+  font-weight: 300;
+}
+
+.type-text {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-top: 0;
+  font-family: system;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Font 1 */
+.font-1h {
+  font-family: var(--font-h1);
+  font-weight: var(--weight-h1);
+}
+
+.font-1p {
+  font-family: var(--font-p1);
+  font-weight: var(--weight-p1);
+}
+
+.mi-h1 {
+  font-weight: var(--weight-h1);
+  font-size: var(--size-h1);
+}
+.mi-p1 {
+  font-weight: var(--weight-p1);
+  font-size: var(--size-p1);
+}
+
+/* Font 2 */
+.font-2h {
+  font-family: var(--font-h2);
+  font-weight: var(--weight-h2);
+}
+
+.font-2p {
+  font-family: var(--font-p2);
+  font-weight: var(--weight-p2);
+}
+
+.mi-h2 {
+  font-weight: var(--weight-h2);
+  font-size: var(--size-h2);
+}
+.mi-p2 {
+  font-weight: var(--weight-p2);
+  font-size: var(--size-p2);
+}
+
+/* Font 3 */
+.font-3h {
+  font-family: var(--font-h3);
+  font-weight: var(--weight-h3);
+}
+
+.font-3p {
+  font-family: var(--font-p3);
+  font-weight: var(--weight-p3);
+}
+
+.mi-h3 {
+  font-weight: var(--weight-h3);
+  font-size: var(--size-h3);
+}
+.mi-p3 {
+  font-weight: var(--weight-p3);
+  font-size: var(--size-p3);
+}
+
+/* Font 4 */
+.font-4h {
+  font-family: var(--font-h4);
+  font-weight: var(--weight-h4);
+}
+
+.font-4p {
+  font-family: var(--font-p4);
+  font-weight: var(--weight-p4);
+}
+
+.mi-h4 {
+  font-weight: var(--weight-h4);
+  font-size: var(--size-h4);
+}
+.mi-p4 {
+  font-weight: var(--weight-p4);
+  font-size: var(--size-p4);
+}
+
+.type-text {
+  position: absolute;
+  top: 36px;
+  left: -70%;
+}
+
+.fav {
+  font-size: 0.8rem;
+  color: #d68bb5;
+}
