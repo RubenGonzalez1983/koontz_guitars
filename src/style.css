@@ -31,7 +31,8 @@
 }
 
 body {
-  color: hsl(195, 4%, 35%);
+  color: white;
+  background-color: black;
 }
 
 .wrap {
@@ -86,7 +87,7 @@ h4 {
 .line-sep {
   flex: 1;
   margin: 0 12px;
-  border: dashed 0.5px rgba(0, 0, 0, 0.3);
+  border: dashed 0.5px white;
 }
 
 .menu-desc {
